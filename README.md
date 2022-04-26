@@ -6,7 +6,7 @@
 
 <p align="center">
 <img alt="Screen Shot 2021-03-08 at 12 32 54 AM" src="https://user-images.githubusercontent.com/11247099/110247185-ed26b380-7fa5-11eb-8fce-6c224bb6ef26.png">
-<img alt="Screen Shot 2021-03-08 at 12 33 16 AM" src="https://user-images.githubusercontent.com/11247099/110247187-f1eb6780-7fa5-11eb-9258-620309e20961.png">
+<img alt="Screen Shot 2021-03-08 at 12 33 16 AM" src="img.png">
 <sub><samp>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Font | <a href="http://input.fontbureau.com/">Input Mono</a><br>
 &nbsp;File Icons | <a href="https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons">File Icons</a><br>
 Product Icons | <a href="https://github.com/antfu/vscode-icons-carbon">Carbon</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
@@ -25,6 +25,29 @@ Product Icons | <a href="https://github.com/antfu/vscode-icons-carbon">Carbon</a
   "workbench.preferredDarkColorTheme": "Elkon Dark",
 }
 ```
+### Changed of [vitesse-theme](https://github.com/antfu/vscode-theme-vitesse)
+
+```git
+src/colors.ts
+
+-  border: ['#191919', '#f0f0f0'],
++  border: ['#272727', '#f0f0f0'],
+
+src/theme.ts
+- 'tab.activeBorder': border,
++ 'tab.activeBorder': '#1f7075',
+
+- 'editor.inactiveSelectionBackground': pick({ light: '#22222210', dark: '#eeeeee10' }),
++ 'editor.selectionBackground': pick({ light: '#22222210', dark: '#01597462' }),
+
+- 'panel.background': background,
++ 'panel.background': '#161616',
+
+- 'terminal.selectionBackground': pick({ light: '#eeeeee', dark: activeBackground }),
++ 'terminal.selectionBackground': pick({ light: '#eeeeee', dark: '#01597462' }),
+```
+
+
 
 ## Links
 
@@ -34,7 +57,7 @@ Product Icons | <a href="https://github.com/antfu/vscode-icons-carbon">Carbon</a
 
 ## Thanks
 
-This project is based on [vscode-theme-vitesse](https://github.com/antfu/vscode-theme-vitesse).
+This project is based on [vitesse-theme](https://github.com/antfu/vscode-theme-vitesse).
 
 ## License
 
