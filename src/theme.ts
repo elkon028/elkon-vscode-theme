@@ -126,7 +126,7 @@ export default function getTheme({ style, name, soft = false }) {
       'tab.unfocusedHoverBackground': background,
       'tab.border': border,
       'tab.unfocusedActiveBorderTop': border,
-      'tab.activeBorder': border,
+      'tab.activeBorder': '#1f7075', // 标签边框色
       'tab.unfocusedActiveBorder': border,
       'tab.activeBorderTop': secondaryForeground,
 
@@ -150,7 +150,7 @@ export default function getTheme({ style, name, soft = false }) {
       'editor.findMatchBackground': pick({ light: '#e6cc7744', dark: '#e6cc7722' }),
       'editor.findMatchHighlightBackground': pick({ light: '#e6cc7766', dark: '#e6cc7744' }),
       'editor.inactiveSelectionBackground': pick({ light: '#22222210', dark: '#eeeeee10' }),
-      'editor.selectionBackground': pick({ light: '#22222210', dark: '#01597462' }),
+      'editor.selectionBackground': pick({ light: '#22222210', dark: '#01597462' }), // 代码选中背景色
       'editor.selectionHighlightBackground': pick({ light: '#22222215', dark: '#eeeeee15' }),
       'editor.wordHighlightBackground': pick({ light: '#1c6b4805', dark: '#1c6b4805' }),
       'editor.wordHighlightStrongBackground': pick({ light: '#1c6b4810', dark: '#1c6b4810' }),
@@ -165,7 +165,7 @@ export default function getTheme({ style, name, soft = false }) {
       'scrollbarSlider.activeBackground': vitesse('ignored'),
       'editorOverviewRuler.border': primer.white,
 
-      'panel.background': background,
+      'panel.background': '#161616', // 面板背景色
       'panel.border': border,
       'panelTitle.activeBorder': primary,
       'panelTitle.activeForeground': foreground,
@@ -173,7 +173,7 @@ export default function getTheme({ style, name, soft = false }) {
       'panelInput.border': pick({ light: primer.gray[2], dark: primer.gray[1] }),
 
       'terminal.foreground': foreground,
-      'terminal.selectionBackground': pick({ light: '#eeeeee', dark: '#222222' }),
+      'terminal.selectionBackground': pick({ light: '#eeeeee', dark: '#01597462' }), // 代码选中背景色
       'terminal.ansiBrightBlack': pick({ light: '#aaaaaa', dark: '#777777' }),
       'terminal.ansiBrightBlue': vitesse('blue'),
       'terminal.ansiBrightCyan': vitesse('cyan'),

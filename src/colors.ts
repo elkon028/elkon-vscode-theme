@@ -20,7 +20,7 @@ export const ElkonThemes = {
   secondaryForeground: ['#dedcd590', '#393a3490'],
   ignored: ['#dedcd530', '#393a3450'],
   faded: ['#dedcd510', '#393a3410'],
-  border: ['#191919', '#f0f0f0'],
+  border: ['#272727', '#f0f0f0'],
 
   background: ['#121212', '#ffffff'],
   activeBackground: ['#181818', '#f5f5f5'],

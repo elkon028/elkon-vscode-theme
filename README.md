@@ -1,7 +1,7 @@
 <h1 align="center">Elkon Theme for VS Code</h1>
 
 <p align="center">
-<a href="https://marketplace.visualstudio.com/items?itemName=elkon.vscode-theme-elkon" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/elkon.vscode-theme-elkon.svg?color=4d9375&amp;label=Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=elkon.elkon-vscode-theme" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/elkon.elkon-vscode-theme.svg?color=4d9375&amp;label=Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
 </p>
 
 <p align="center">
