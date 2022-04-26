@@ -150,7 +150,7 @@ export default function getTheme({ style, name, soft = false }) {
       'editor.findMatchBackground': pick({ light: '#e6cc7744', dark: '#e6cc7722' }),
       'editor.findMatchHighlightBackground': pick({ light: '#e6cc7766', dark: '#e6cc7744' }),
       'editor.inactiveSelectionBackground': pick({ light: '#22222210', dark: '#eeeeee10' }),
-      'editor.selectionBackground': pick({ light: '#22222210', dark: '#eeeeee10' }),
+      'editor.selectionBackground': pick({ light: '#22222210', dark: '#01597462' }),
       'editor.selectionHighlightBackground': pick({ light: '#22222215', dark: '#eeeeee15' }),
       'editor.wordHighlightBackground': pick({ light: '#1c6b4805', dark: '#1c6b4805' }),
       'editor.wordHighlightStrongBackground': pick({ light: '#1c6b4810', dark: '#1c6b4810' }),

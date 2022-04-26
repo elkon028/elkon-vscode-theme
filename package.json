@@ -5,7 +5,7 @@
   "description": "Elkon theme for VS Code",
   "keywords": [
     "theme",
-    "vitesse",
+    "elkon",
     "light",
     "dark"
   ],
@@ -50,9 +50,24 @@
   "contributes": {
     "themes": [
       {
-        "label": "Elkon dark",
+        "label": "Elkon Light",
+        "uiTheme": "vs",
+        "path": "./themes/elkon-light.json"
+      },
+      {
+        "label": "Elkon Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/elkon-color-dark.json"
+        "path": "./themes/elkon-dark.json"
+      },
+      {
+        "label": "Elkon Light Soft",
+        "uiTheme": "vs",
+        "path": "./themes/elkon-light-soft.json"
+      },
+      {
+        "label": "Elkon Dark Soft",
+        "uiTheme": "vs-dark",
+        "path": "./themes/elkon-dark-soft.json"
       }
     ]
   },
