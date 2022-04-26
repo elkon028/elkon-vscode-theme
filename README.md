@@ -37,7 +37,7 @@ src/theme.ts
 - 'tab.activeBorder': border,
 + 'tab.activeBorder': '#1f7075',
 
-- 'editor.inactiveSelectionBackground': pick({ light: '#22222210', dark: '#eeeeee10' }),
+- 'editor.selectionBackground': pick({ light: '#22222210', dark: '#eeeeee10' }),
 + 'editor.selectionBackground': pick({ light: '#22222210', dark: '#01597462' }),
 
 - 'panel.background': background,
